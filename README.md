@@ -1,6 +1,6 @@
-# milky-ui
+# Milky UI
 
-> React component library
+> Fun, Easy-to-use React component library
 
 [![NPM](https://img.shields.io/npm/v/milky-ui.svg)](https://www.npmjs.com/package/milky-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -27,4 +27,4 @@ class Example extends Component {
 
 ## License
 
-MIT © [https://github.com/langford-dev](https://github.com/https://github.com/langford-dev)
+MIT © [langford-dev](https://github.com/langford-dev)
