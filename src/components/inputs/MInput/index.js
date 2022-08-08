@@ -1,6 +1,6 @@
 import { StyledMInput } from "./styles"
 
-export const MINput = ({ onChange, value, activeBg, activeBorderColor, width, radius, placeholder, borderColor, bg }) => {
+export const MInput = ({ onChange, value, activeBg, activeBorderColor, width, radius, placeholder, borderColor, bg }) => {
     return (
         <StyledMInput
             bg={bg}
