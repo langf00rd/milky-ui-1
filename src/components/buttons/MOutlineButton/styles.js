@@ -18,6 +18,10 @@ export const StyledMOutlinedButton = styledComponents.button`
     &:active {
         color: ${p => p.hoverColor ? p.hoverColor : p.hoverColor};
         border-color: ${p => p.hoverColor ? p.hoverColor : p.hoverColor};
-        transform: scale(0.9)
+    }
+
+    &:active {
+        transform: scale(0.9);
+        box-shadow: rgb(38 57 77) 0px 6px 21px -11px;
     }
 `;

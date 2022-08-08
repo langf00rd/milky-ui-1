@@ -1,6 +1,6 @@
 import { StyledMAvatar, StyledMAvatarWrapper, StyledMEmptyAvatar } from "./styles"
 
-export const MAvatar = ({ alt, bg, isEmpty, fit, size, image, radius }) => {
+export const MAvatar = ({ action, alt, bg, isEmpty, fit, size, image, radius }) => {
     if (isEmpty) return (
         <StyledMAvatarWrapper>
             <StyledMEmptyAvatar
@@ -10,6 +10,7 @@ export const MAvatar = ({ alt, bg, isEmpty, fit, size, image, radius }) => {
                 radius={radius}
                 src={image}
                 alt={alt}
+                onClick={action}
                 isEmpty={isEmpty}>
             </StyledMEmptyAvatar>
         </StyledMAvatarWrapper>
@@ -24,6 +25,7 @@ export const MAvatar = ({ alt, bg, isEmpty, fit, size, image, radius }) => {
                 radius={radius}
                 src={image}
                 alt={alt}
+                onClick={action}
                 isEmpty={isEmpty}>
             </StyledMAvatar>
         </StyledMAvatarWrapper>
