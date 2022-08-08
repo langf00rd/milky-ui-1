@@ -1,10 +1,11 @@
 import React from 'react'
 import { StyledMButton } from './styles'
 
-export const MButton = ({ borderColor, hoverBg, hoverTextColor, bg, textColor, label, action }) => {
+export const MButton = ({ radius, borderColor, hoverBg, hoverTextColor, bg, textColor, label, action }) => {
     return (
         <StyledMButton
             bg={bg}
+            radius={radius}
             borderColor={borderColor}
             textColor={textColor}
             hoverTextColor={hoverTextColor}

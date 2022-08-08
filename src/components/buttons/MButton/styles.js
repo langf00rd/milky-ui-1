@@ -5,7 +5,7 @@ export const StyledMButton = styledComponents.button`
     border: none;
     border: 2.3px solid ${p => p.bg ? p.bg : '#007fff'};
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: ${p => p.radius ? p.radius : '10px'};
     background: ${p => p.bg ? p.bg : '#007fff'};
     color: ${p => p.textColor ? p.textColor : '#fff'};
     transition: 0.1s linear;

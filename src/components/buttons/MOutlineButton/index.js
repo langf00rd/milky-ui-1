@@ -1,10 +1,11 @@
 import React from 'react'
 import { StyledMOutlinedButton } from './styles'
 
-export const MOutlinedButton = ({ color, hoverColor, borderColor, hoverBg, hoverTextColor, bg, textColor, label, action }) => {
+export const MOutlinedButton = ({ radius, color, hoverColor, label, action }) => {
     return (
         <StyledMOutlinedButton
             hoverColor={hoverColor}
+            radius={radius}
             color={color}
             onClick={action}
         >{label}</StyledMOutlinedButton>
